@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+        }
+        .aboutalign{
+            display: flex;
+
+        }
+        .aboutalign img{
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+        }
+        .me{
+            text-align: left;
+            position: relative;
+            margin-left: 100px;
+            box-sizing: border-box;
+            width: 500px;
+            padding: 20px;
+            border: 5px solid black;
+        }
+        header {
+            background: #1B1F3B;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background:#B9b1a3;
+            border-radius: 5px;
+        }
+        .projectarea {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project {
+            background: #6C757D;
+            padding: 15px;
+            margin: 10px;
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+            color: #121212;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea, button {
+            margin: 10px 0;
+            padding: 10px;
+            width: 98%;
+            background-color: #6C757D;
+
+        }
+        footer {
+            background: #1B1F3B;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="about">
+    
+        <h2 style="text-align: center;">About Me</h2>
+        <div class="aboutalign">
+        <img src="heet.jpg" alt="My Photo">
+        <h1 style="font-size: 40px;">Heet Kshatriya</h1>
+        <br>
+        <div class="me">
+        <b><p style="font-size: 30px;">A bit about me</p>
+        
+        <p>I am a student of Parul Institute of Technology, persuing Btech Cse. I am right now in the 2nd semester. I am learning C language, Html, CSS and Javascript </p>
+    </b></div>
+    </div>
+
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <h4>Click the below project to open the project</h4>
+        <div class="projectarea">
+            <div class="project">
+                <a href="hotel/Hotel.html" style="text-decoration: none; color: #121212;"><h3>Project 1</h3></a>
+                <a href="hotel/Hotel.html" style="text-decoration: none; color: #121212;"><p>A Hotel Website</p></a>
+            </div>
+            <div class="project">
+                <a href="hindustan times/home.html"style="text-decoration: none; color: #121212;"><h3>Project 2</h3></a>
+                <a href="hindustan times/home.html"style="text-decoration: none; color: #121212;"><p>A News Website</p></a>
+            </div>
+            <div class="project">
+                <a href="OnlineEcommerce/index.html"style="text-decoration: none; color: #121212;"><h3>Project 3</h3></a>
+                <a href="OnlineEcommerce/index.html"style="text-decoration: none; color: #121212;"><p>Online Ecommerce</p></a>
+            </div>
+            <div class="project">
+                <a href="Restaurant/index.html"style="text-decoration: none; color: #121212;"><h3>Project 4</h3></a>
+                <a href="Restaurant/index.html"style="text-decoration: none; color: #121212;"><p>Restaurant</p></a>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="projectarea">
+            <div class="project">
+                <h3>HTML</h3>
+            </div>
+            <div class="project">
+                <h3>CSS</h3>
+            </div>
+            <div class="project">
+                <h3>C Language</h3>
+            </div>
+          
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    
+    
+    <footer>
+        <p>Connect with me on <a href="https://github.com/HeetKshatriya">Github</a></p>
+    </footer>
+</body>
+</html>

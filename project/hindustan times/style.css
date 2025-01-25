@@ -1,0 +1,55 @@
+.box{
+    border: 2px solid rgb(14, 9, 58);
+    height: 60px;
+    background-color: rgb(14, 9, 58);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.up{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 40px;
+    
+}
+.up a{
+    text-decoration: none;
+}
+.down{
+    position: absolute;
+    bottom: 85%;
+}
+.mid img{
+    width: 400px;
+    position: fixed;
+    left: 430px;
+    bottom: 470px;
+}
+.right{
+    position: relative;
+    bottom: 50px;
+    
+}
+.ru{
+    position: relative;
+    left: 50px;
+    word-spacing: 40px;
+  padding-left: 800px;
+  padding-top: 30px;
+}
+.ru a{
+    text-decoration: none;
+
+}
+.rd{
+    display: flex;
+    position: relative;
+    left: 20px;
+    bottom: 3px;
+    gap: 19px;
+    padding-left: 840px;
+   padding-top: 30px;
+}
+
+
